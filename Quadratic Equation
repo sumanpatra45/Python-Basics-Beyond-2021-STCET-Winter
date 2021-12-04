@@ -1,0 +1,9 @@
+#Finding root From Quadratic Equation
+c=float(input("Enter the square coefficient"))
+d=float(input("Enter the single coefficient"))
+e=float(input("Enter the Individual coefficient"))
+a=(d*d)-4*c*e
+f=math.sqrt(a)
+y=(d*d)+4*c*e
+k=math.sqrt(y)
+print(f"The two roots are {f} and {k}")
